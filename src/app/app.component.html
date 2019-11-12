@@ -1,0 +1,14 @@
+
+
+
+
+<app-header></app-header>
+
+
+<app-beasts-panel *ngIf= "pagServ.curentPanel == 'beasts'"></app-beasts-panel>
+<app-birds-panel *ngIf= "pagServ.curentPanel == 'birds'"></app-birds-panel>
+<!-- <app-wilds-panel *ngIf= "paging.curentPanel == 'wilds'"></app-wilds-panel> -->
+
+
+<app-paginator (moveItem)="getUp($event)"></app-paginator>
+<app-footer></app-footer>

@@ -1,0 +1,24 @@
+.header-flex{
+    display: flex;
+    background-color: orange;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    
+width: 25%;
+}
+.logo > img{
+    padding: 2%;
+    width: 100%;
+    opacity: 0.8; 
+}
+.hello{
+    /* background-color: rgb(218, 144, 8); */
+    /* border: solid rgba(255, 166, 0, 0.555); */
+    height: auto;   
+}
+.nav{
+    width: 10%;
+   
+}

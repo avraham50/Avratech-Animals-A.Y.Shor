@@ -1,0 +1,25 @@
+.out-bird{
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    padding: 0% 15%;
+   justify-content: right;
+   background-color: lightskyblue;
+}
+
+img{
+    height: 30vw;
+    margin: 10px;
+}
+.in-bird{
+    display: inline;
+    text-align: left;
+}
+h2{
+    font-size: 19pt;
+    margin: 10px;
+    display: inline;
+}
+h3{
+    margin: 3px;
+}

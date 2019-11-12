@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15%;
+}
+ul > li {
+    width: 25%;
+}
+ 
+ 
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+div{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}

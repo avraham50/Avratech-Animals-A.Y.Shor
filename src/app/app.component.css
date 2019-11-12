@@ -1,0 +1,12 @@
+
+.beast-card{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+.template-cards{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}

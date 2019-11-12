@@ -1,0 +1,11 @@
+<h1>Welcome to the birds observatory</h1>
+<div class="out-bird">
+    <ul>
+        <h2>our list of birds:</h2>
+        <li *ngFor="let b of birdSrv.birds" >{{ b.name }}</li>
+    </ul>
+    <app-bird-card class="bird-card"></app-bird-card>
+</div>
+
+
+

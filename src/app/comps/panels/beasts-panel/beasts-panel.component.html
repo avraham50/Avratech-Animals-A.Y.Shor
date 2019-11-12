@@ -1,0 +1,8 @@
+<h1>Welcome to the beasts observatory</h1>
+<div class="out-beast">
+        <ul>
+            <h2>our list of beasts:</h2>
+            <li *ngFor="let b of beastSrv.beasts" >{{ b.name }}</li>
+        </ul>
+    <app-beast-card class="beast-card"></app-beast-card>
+</div>
