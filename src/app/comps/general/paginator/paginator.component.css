@@ -1,20 +1,30 @@
 div{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 60vw;
+    height: 18vw;
+    margin: 2% 30%;
+    
 }
 
 #cetz{
-        -webkit-transform: scalex(-1);
-        transform: scalex(-1);
-        width: 18vw;
-        height: 13wv;  
+  
+    -webkit-transform: scalex(-1);
+    transform: scalex(-1);   
     }
-button{
-   width: 18vw;
-   height: 13wv;
-   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpx4Ly6ZXzccX9YyerFc3eBzvEycVh8KtVejlZFyeX_mqzzvBV");
-   background-color: #f01010;
+#cetz:hover {   
+transform: scalex(-1);
 }
-
-img {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)}
-img:hover { background-position: right center; }
+img:hover {
+    transform: scale(1.2);
+}
+.page-arrow{
+   display: flex;
+   justify-content: center;
+  
+}
+.arrow{
+  
+    width:  20vw;
+    margin: 10px; 
+}

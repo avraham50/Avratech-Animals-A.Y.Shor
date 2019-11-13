@@ -19,19 +19,27 @@ export class AppComponent {
     console.log('AppComponent  getUp', event);
     let newInd;
     switch (this.pagServ.curentPanel) {
-     
+
       case "birds":
         newInd = this.getNumberIndex(this.birdSrv.curentBirdIndex,
-        event,this.birdSrv.birds)
+          event, this.birdSrv.birds)
         this.birdSrv.curentBirdIndex = newInd;
         this.birdSrv.curentBird = this.birdSrv.birds[newInd];
         break;
       case "beasts":
         newInd = this.getNumberIndex(this.beastSrv.curentBeastIndex,
-        event,this.beastSrv.beasts)
+          event, this.beastSrv.beasts)
         this.beastSrv.curentBeastIndex = newInd;
         this.beastSrv.curentBeast = this.beastSrv.beasts[newInd];
         break;
+      case "wilds":
+        newInd = this.getNumberIndex(this.wildSrv.curentWildIndex,
+          event, this.wildSrv.wilds)
+        this.wildSrv.curentWildIndex = newInd;
+        this.wildSrv.curentWild = this.wildSrv.wilds[newInd];
+        break;
+
+
       default:
         break;
     }
@@ -39,12 +47,10 @@ export class AppComponent {
 
   private getNumberIndex(contemIndex: number, dalta: number, array: {}[]) {
     console.log('getNumberIndex(contemIndex: number, dalta: number, array: {}[])',
-    contemIndex, dalta, array)
+      contemIndex, dalta, array)
     let max = array.length - 1;
-    let newIndex = contemIndex + dalta;
-    if (newIndex > max) {
-      newIndex = 0;
-    }
+    let newIndex = (contemIndex + dalta) % (max + 1);
+
     if (newIndex < 0) {
       newIndex = max;
     }

@@ -16,10 +16,12 @@ img{
     text-align: left;
 }
 h2{
-    font-size: 19pt;
+    font-size: 3vw;
     margin: 10px;
     display: inline;
 }
 h3{
-    margin: 3px;
+   font-size: 2vw;
+   margin: 3px;
 }
+

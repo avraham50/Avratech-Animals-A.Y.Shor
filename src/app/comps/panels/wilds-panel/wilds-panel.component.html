@@ -1,1 +1,8 @@
-<p>wilds-panel works!</p>
+<h1>Welcome to the wild animals observatory</h1>
+<div class="out-wild">
+    <ul>
+        <h2>our list of wilds:</h2>
+        <li *ngFor="let b of wildSrv.wilds" >{{ b.name }}</li>
+    </ul>
+    <app-wid-card class="wild-card"></app-wid-card>
+</div>

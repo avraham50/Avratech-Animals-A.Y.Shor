@@ -1,0 +1,26 @@
+.out-wild{
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    padding: 0% 15%;
+   justify-content: right;
+   background-color: lightskyblue;
+}
+
+img{
+    height: 30vw;
+    margin: 10px;
+}
+.in-wild{
+    display: inline;
+    text-align: left;
+}
+h2{
+    font-size: 3vw;
+    margin: 10px;
+    display: inline;
+}
+h3{
+   font-size: 2vw;
+   margin: 3px;
+}

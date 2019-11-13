@@ -14,11 +14,11 @@ width: 25%;
     opacity: 0.8; 
 }
 .hello{
-    /* background-color: rgb(218, 144, 8); */
-    /* border: solid rgba(255, 166, 0, 0.555); */
+  
+    font-size: 2vw;
     height: auto;   
 }
 .nav{
-    width: 10%;
+    width: 20%;
    
 }

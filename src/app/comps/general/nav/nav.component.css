@@ -1,8 +1,7 @@
 ul{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    padding: 15%;
+    font-size: 2vw;
 }
 ul > li {
     width: 25%;
@@ -15,7 +14,6 @@ li:hover {
     text-decoration: underline;
 }
 div{
-    width: 200px;
-    display: flex;
     justify-content: space-around;
 }
+

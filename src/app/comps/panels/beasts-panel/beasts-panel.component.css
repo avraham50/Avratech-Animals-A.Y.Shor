@@ -7,10 +7,16 @@ div{
     opacity: 0.9;
 }
 ul {
-    font-size: 19pt;
+    font-size: 3vw;
+    text-shadow: 0.2vw 0.2vw rgb(240, 178, 9);
 }
 .beast-card{
     height: 100%;
     width: 40%;
     /* margin: 0% 10% 10% 10%; */
+}
+h1{
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: 0.2vw 0.2vw rgb(240, 178, 9);
 }
