@@ -10,7 +10,7 @@ export class BirdService {
 
 
   birds = [
-    { name: 'blue-tail', size: 'small', lifeSpan: '15y', habitat: 'africa', img: 'https://st.depositphotos.com/3033759/4351/i/950/depositphotos_43515393-stock-photo-male-himalayan-bluetail.jpg' },
+    { name: 'blue-tail', size: 'small', lifeSpan: '15y', habitat: 'africa', img: 'https://miro.medium.com/max/1600/1*VViJJSx_Dz3kgUzmvA7gaA.gif' },
     { name: 'long-tail', size: 'small', lifeSpan: '1y', habitat: 'holand', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQH9T6rG2kEVkW-dvfRhuzSfJgPtj67qFRRECe0wttMhLyLhFTH' },
     { name: 'blue-mouth', size: 'meduin', lifeSpan: '5y', habitat: 'israel', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmx7lUEK6FJY6bMBZkPWVAZ3C27O6KgR6l2Xpc19NyQG-7BGcV' },
     { name: 'pink-beak', size: 'large', lifeSpan: '115y', habitat: 'africa', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7McIxDt6iXe02TQaSgavU1fUsGR7VlOh_yNFtPKlntNXDEkIC' },

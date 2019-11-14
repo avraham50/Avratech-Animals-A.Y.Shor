@@ -10,6 +10,7 @@
 img{
     height: 30vw;
     margin: 10px;
+    transform: rotateY(180deg);
 }
 .in-bird{
     display: inline;
